@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    background-color: #000;
+}
+#res{
+    padding-top: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.strong{
+    color: white;
+}
+#HR, #MS{
+    
+    height: 25px;
+}
+.inputHours{
+    text-align: center;
+    width: 100px;
+    padding: 20px 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #5F9EA0;
+    font-size: 30px;
+    border-radius: 20px;
+}
+#definir{
+    padding-top: 20px;
+    height: 5px;
+}
+h1{
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+.parar{
+    text-align: center;
+    font-weight: bold;
+    padding: 3px;
+    font-size: 15px;
+    background-color: #FF6347;
+    color: black;
+    border-radius: 5px;
+}
+.parar:hover{
+    background-color: #FF0000;
+}
+.dfr{
+    text-align: center;
+    font-weight: bold;
+    padding: 3px;
+    font-size: 15px;
+    background-color: #40E0D0;
+    color: black;
+    border-radius: 5px;
+}
+.dfr:hover{
+    background-color: #00FF00;
+
+}
+.dig{
+    text-align: center;
+    width: 90px;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #5F9EA0;
+    border-radius: 15px;
+}
+
+/* Mobile */
+@media screen and (max-width: 600px){
+    .dig{
+        width: 8vh;
+    }
+    .alarm{
+        padding-top: 5vh;
+    }
+    #definir{
+        padding-top: 5vh;
+    }
+    #res{
+        margin-top: 1vh;
+    }
+    .dfr{
+        padding: 1vh;
+        font-size: 18px;
+    }
+    .parar{
+        padding: 1vh;
+        font-size: 18px;
+    }
+    
+}
+

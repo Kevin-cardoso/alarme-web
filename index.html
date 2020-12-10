@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo/style.css">
+    <script src="js/main.js"></script>
+    <title>Alarme</title>
+</head>
+<body>
+    <div class="container">
+        <div class="relogio"><!-- Relógio -->
+            <h1>Relógio</h1>
+            <input type="text" id="relh" class="dig"> <spam class="strong">:</spam>
+            <input type="text" id="relm" class="dig"> <spam class="strong">:</spam>
+            <input type="text" id="rels" class="dig">
+        
+        </div>
+
+        <div><!-- Defini o Alarme -->
+            <h1 class="alarm">Definir Novo Alarme</h1>
+            <input type="number" name="definir_h" id="HR" class="inputHours">
+            <spam class="strong">:</spam>
+            <input type="number" name="definir_m" id="MS" class="inputHours"> 
+        </div>
+
+        <section id="definir"><!-- Botões do Alarme -->
+            <input type="button" value="Definir" class="dfr" id="defButton" onclick="definir()">
+            <input type="button" value="Desativar" class="parar" id="desButton" onclick="desativar()">
+        </section>
+
+        <div id="res"></div><!-- Exibe Alarme Definido -->
+
+        <audio id="ativar" src="audio/Despertador.m4a"></audio>
+        <audio id="desativar" src=""></audio>
+    </div>
+</body>
+</html>
